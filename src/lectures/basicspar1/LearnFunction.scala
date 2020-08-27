@@ -65,7 +65,7 @@ object LearnFunction extends App{
     checkprime(n-1)
 
   }
-  println(isprime(10))
+  println(isprime(4))
 
 
 }
