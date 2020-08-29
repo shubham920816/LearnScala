@@ -1,4 +1,4 @@
-package lectures.basicspar1
+package lectures.basicspart1
 
 import scala.annotation.tailrec
 
