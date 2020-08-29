@@ -11,11 +11,11 @@ object LearnFunction extends App{
   println(functionwitharguements) //We can call function with no arguments with parenthesis
 
   def repeatfunction(x:String,y:Int):String=
-    {
-      if (y<=1) x
-      else x+repeatfunction(x,y-1)
+  {
+    if (y<=1) x
+    else x+repeatfunction(x,y-1)
 
-    }
+  }
   println(repeatfunction("hello",3))
   // Scala ide adds a identifier ("@") when the function is recursive
   // WHENEVER WE NEED FOR LOOP IN SCALA,WE SHOULD USE RECURSION
@@ -53,7 +53,7 @@ object LearnFunction extends App{
     if ((x==1) | (x==2) ) a
     else fibbonacci(x-1) + fibbonacci(x-2)
   }
-  println(fibbonacci(6))
+  println(fibbonacci(7))
 
   def isprime(n: Int): Boolean={
     def checkprime(t:Int):Boolean= {
