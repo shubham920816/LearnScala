@@ -87,7 +87,9 @@ class Novel(name: String,release: Int,author: Writer){
 class Counter(counter:Int){
 
   def currencount():Int=counter
-  def increment():Counter=new Counter(counter+1)
+  def increment():Counter=new Counter(counter+1) // Immutability - In Scala Programming,instead of changing
+                                                 // value of original instance(object),we create a new instance
+                                                 // for storing updated value
   def increment(amount: Int):Counter={
     /*if (amount<=0) this.increment
     else
@@ -106,11 +108,11 @@ class Counter(counter:Int){
 
 class Counter2(val counter: Int =0 ) {
   def inc:Counter2={
-    print("incrementing")
+    println("incrementing")
     new Counter2(counter+1)
   }
   def dcr: Counter2 ={
-    print("decrementing")
+    println("decrementing")
     new Counter2(counter-1)
   }
   def inc(n:Int):Counter2={
