@@ -12,9 +12,10 @@ object Stringops extends App{
   println(str.substring(7,11))
 
   val str2: String="42"
-  val intval: Int=str2.toInt
+  val intVal: Int=str2.toInt
   println(str.reverse)
   println(str.take(5))
+  println("a" +: str2 :+ "z")
 
   // Scala Specific Interpolation
   //s-interpolation

@@ -16,6 +16,8 @@ object MethodNotations extends App{
   val tom=new Person("tom","inception")
   println(hary.hangsouthwith(tom))
   println(hary hangsouthwith tom) //equivalent to above statement
+  println("#####")
+  println(hary + tom)
   /*
   inline notation = operator notation (if we define method with only single arguement
                                        we can use the methods as inline notations)
