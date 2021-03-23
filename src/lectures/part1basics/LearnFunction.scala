@@ -8,7 +8,7 @@ object LearnFunction extends App{
   def functionwitharguements():Int=56
   println(Firstfunction("hello",6))
   println(functionwitharguements())
-  println(functionwitharguements) //We can call function with no arguments with parenthesis
+  println(functionwitharguements) //We can call function with no arguments without parenthesis
 
   def repeatfunction(x:String,y:Int):String=
   {
