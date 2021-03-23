@@ -38,7 +38,8 @@ object ObjectLearn extends  App {
   }
   /*
   If we define Object and Class with same name
-  this pattern of programming is called COMPANION patter.
+  this pattern of programming is called COMPANION pattern.
+  Companion can access each others private members
   This sort of factory pattern provides both instance level
   and class level functionality for a class
    */
