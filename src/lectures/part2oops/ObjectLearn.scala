@@ -50,7 +50,7 @@ object ObjectLearn extends  App {
   println(jeetu)
   println(shubham)
   /*
-  We use extends App in scala Objects to run them as application because
+  We use "extends App" in scala Objects to run them as application because
   scala application are special scala objects with
   def main(args :Array[String]): Unit
   Scala Applications are converted to Java virtual machine
